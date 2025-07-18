@@ -8,17 +8,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return ( 
-    function App() {
-  return (
-    <div>
+    <>
+      <div>
       <WelcomeMessage />
     </div>
-  );
-}
-
-export default App;
-
-    <>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
