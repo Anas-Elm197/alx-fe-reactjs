@@ -21,7 +21,7 @@ function App() {
         </a>
       </div>
       <h1>Hello everyone, I am learning React at ALX!</h1>
-      <p> I am learning about JSX! <p/>
+      <p> I am learning about JSX! </p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
