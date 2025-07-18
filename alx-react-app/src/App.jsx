@@ -7,7 +7,17 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  return ( 
+    function App() {
   return (
+    <div>
+      <WelcomeMessage />
+    </div>
+  );
+}
+
+export default App;
+
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -17,7 +27,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Hello everyone, I am learning React at ALX!</h1>
+      <p> I am learning about JSX! <p/>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
