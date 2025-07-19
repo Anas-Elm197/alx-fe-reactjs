@@ -1,3 +1,5 @@
+import React from 'react';
+import Counter from './components/Counter';
 import WelcomeMessage from './components/WelcomeMessage';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -8,6 +10,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return ( 
+    <div>
+      <Counter />
+    </div>
     <>
       <div>
       <WelcomeMessage />
